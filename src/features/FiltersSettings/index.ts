@@ -1,0 +1,1 @@
+export { FiltersSettings } from './FiltersSettings';

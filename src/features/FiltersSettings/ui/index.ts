@@ -1,0 +1,1 @@
+export { FiltersInfo } from './FiltersInfo';

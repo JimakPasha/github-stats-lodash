@@ -1,0 +1,1 @@
+export { calculateLetterFrequency } from './calculateLetterFrequency'
