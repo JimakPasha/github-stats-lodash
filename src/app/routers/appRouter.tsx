@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { About, Home, Error } from "../../pages";
+import { Home, Error } from "../../pages";
 import { Layout } from "../layout";
 
 export const AppRouter = () => {
@@ -8,10 +8,7 @@ export const AppRouter = () => {
       path: "/",
       element: <Layout />,
       errorElement: <Error type={"unknownError"} />,
-      children: [
-        { path: "/", element: <Home /> },
-        { path: "/about", element: <About /> },
-      ],
+      children: [{ path: "/", element: <Home /> }],
     },
     {
       path: "*",
