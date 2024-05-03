@@ -1,0 +1,1 @@
+export type FilesType = "JS/TS" | "JS" | "TS" | "CUSTOM";
